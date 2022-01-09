@@ -1,0 +1,45 @@
+.download-button {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.7rem;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 718px) {
+  .download-button {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .download-button__link {
+    max-width: 18rem;
+  }
+}
+.download-button__link {
+  padding: 1.767rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #ffff;
+  border-radius: 3rem;
+  width: 87%;
+  /* max-width: 35rem; */
+}
+
+.download-button__link:hover {
+  opacity: 0.8;
+}
+
+.download-button__link--ios {
+  background-color: var(--StrongCyan);
+  box-shadow: var(--StrongCyan) 0px 25px 30px -20px,
+    var(--StrongCyan50) 0px 3px 1px 0px;
+}
+
+.download-button__link--mac {
+  background-color: var(--LightBlue);
+  box-shadow: var(--LightBlue) 0px 25px 30px -20px,
+    var(--LightBlue50) 0px 3px 1px 0px;
+}

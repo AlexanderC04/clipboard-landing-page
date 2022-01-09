@@ -1,0 +1,42 @@
+.header {
+  padding: 2.8rem;
+  margin: 11rem 0 11rem 0;
+}
+
+.header__logo-container {
+  margin-bottom: 6.4rem;
+}
+.header__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.header__title {
+  color: var(--DarkGrayishBlue);
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 1.24;
+  margin-bottom: 1.6rem;
+}
+.header__description {
+  color: var(--GrayishBlue);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.03rem;
+}
+
+@media screen and (min-width: 718px) {
+  .header {
+    margin: 8rem 0 11rem 0;
+  }
+  .header__title {
+    font-size: 3.6rem;
+  }
+  .header__description {
+    max-width: 60rem;
+  }
+}

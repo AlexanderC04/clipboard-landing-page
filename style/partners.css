@@ -1,0 +1,21 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6.2rem;
+  margin-bottom: 16.6rem;
+}
+
+.partners__image {
+  /* width: 38%; */
+  height: auto;
+}
+
+@media screen and (min-width: 718px) {
+  .partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7rem;
+  }
+}
